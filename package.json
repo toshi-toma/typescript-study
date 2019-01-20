@@ -4,17 +4,14 @@
   "description": "TypeScriptの学習リポジトリ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc ./src/greeter.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/toshi-toma/typescript-study.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/toshi-toma/typescript-study/issues"
-  },
-  "homepage": "https://github.com/toshi-toma/typescript-study#readme"
+  "devDependencies": {
+    "typescript": "^3.2.4"
+  }
 }
