@@ -1,6 +1,6 @@
 interface Person {
   firstName: string;
-  lastName: string
+  lastName: string;
 }
 
 function greeter(person: Person) {
