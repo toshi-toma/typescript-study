@@ -4,7 +4,7 @@
   "description": "TypeScriptの学習リポジトリ",
   "main": "index.js",
   "scripts": {
-    "build": "tsc ./src/greeter.ts"
+    "build": "tsc ./src/basicTypes.ts"
   },
   "repository": {
     "type": "git",
